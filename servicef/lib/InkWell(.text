@@ -1,0 +1,39 @@
+InkWell(
+                onTap: () {},
+                child: Center(
+                  child: Icon(
+                    Icons.assignment,
+                    color: Colors.black,
+                    size: 152,
+                  ),
+                )),
+            Padding(padding: EdgeInsets.only(left: 100)),
+            InkWell(
+              onTap: () {},
+              child: Center(
+                child: Icon(
+                  Icons.person,
+                  color: Colors.black,
+                  size: 152,
+                ),
+              ),
+            )
+
+
+
+        //// hadi te3 lbutton li te7t dropdown 
+        SizedBox(
+                  height: 30,
+                ),
+                Container(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    child: Text("Filter"),
+                    style: ElevatedButton.styleFrom(
+                      textStyle: TextStyle(
+                        fontSize: 18,
+                      ),
+                    ),
+                    onPressed: () {},
+                  ),
+                ),
